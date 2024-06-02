@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #a699;
+}
+
+navbar div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  background-color: #f1addd;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 14px;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
